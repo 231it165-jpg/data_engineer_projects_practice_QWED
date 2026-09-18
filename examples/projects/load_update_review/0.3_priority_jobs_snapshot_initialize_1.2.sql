@@ -41,3 +41,5 @@ MIN (updated_at) AS updated_at
 FROM priority_jobs_snapshot
 GROUP BY job_title_short
 ORDER BY job_count DESC;
+
+select *from priority_jobs_snapshot limit 10;
